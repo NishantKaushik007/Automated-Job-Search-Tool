@@ -15,7 +15,7 @@ worksheet = workbook.add_worksheet()
 lock = threading.Lock()
 
 # creating threads
-companies = ["ciena","adobe","qualcomm","paypal","intel","bakerhughes","yahoo","mcafee"]
+companies = ["ciena","adobe","qualcomm","paypal","intel","bakerhughes","yahoo","mcafee","airbus","alfa laval","cae","dentsu","finastra","diageo","hp","kone","nxp","old mutual","philips","lseg","samsung","siemens gamesa","snc lavalin","sun life","swift","wolters kluwer","nissan"]
 threads = []
 for i in companies:
     t = threading.Thread(target=getCompanyData, args=(i,lock,worksheet,cell_format))

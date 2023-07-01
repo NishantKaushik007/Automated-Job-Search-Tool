@@ -7,7 +7,8 @@
           "payload": {
             "appliedFacets": {},
             "limit": 10,
-            "offset": 0
+            "offset": 0,
+            "searchText": "software"
           }
         },
         "ciena": {
@@ -16,7 +17,8 @@
           "payload": {
             "appliedFacets": {},
             "limit": 10,
-            "offset": 0
+            "offset": 0,
+            "searchText": "software"
           }
         },
         "adobe": {
@@ -37,7 +39,7 @@
             },
             "limit": 10,
             "offset": 0,
-            "searchText": ""
+            "searchText": "software"
           }
         },
         "paypal": {
@@ -47,7 +49,7 @@
             "appliedFacets": {},
             "limit": 10,
             "offset": 0,
-            "searchText": ""
+            "searchText": "software"
           }
         },
         "intel": {
@@ -57,7 +59,7 @@
             "appliedFacets": {},
             "limit": 10,
             "offset": 0,
-            "searchText": ""
+            "searchText": "software"
           }
         },
         "bakerhughes": {
@@ -77,7 +79,7 @@
             },
             "limit": 10,
             "offset": 0,
-            "searchText": ""
+            "searchText": "software"
           }
         },
         "mcafee": {
@@ -87,7 +89,197 @@
             "appliedFacets": {},
             "limit": 10,
             "offset": 0,
-            "searchText": ""
+            "searchText": "software"
+          }
+        },
+        "airbus": {
+          "tokenURL": "https://ag.wd3.myworkdayjobs.com/Airbus",
+          "jobURL": "https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "alfa laval": {
+          "tokenURL": "https://alfalaval.wd3.myworkdayjobs.com/Alfa_Laval_jobs",
+          "jobURL": "https://alfalaval.wd3.myworkdayjobs.com/wday/cxs/alfalaval/Alfa_Laval_jobs/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "nissan": {
+          "tokenURL": "https://alliance.wd3.myworkdayjobs.com/nissanjobs",
+          "jobURL": "https://alliance.wd3.myworkdayjobs.com/wday/cxs/alliance/nissanjobs/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "cae": {
+          "tokenURL": "https://cae.wd3.myworkdayjobs.com/career",
+          "jobURL": "https://cae.wd3.myworkdayjobs.com/wday/cxs/cae/career/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "dentsu": {
+          "tokenURL": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL",
+          "jobURL": "https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "finastra": {
+          "tokenURL": "https://dh.wd3.myworkdayjobs.com/DHC",
+          "jobURL": "https://dh.wd3.myworkdayjobs.com/wday/cxs/dh/DHC/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "diageo": {
+          "tokenURL": "https://diageo.wd3.myworkdayjobs.com/en-US/Diageo_Careers",
+          "jobURL": "https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "engineer"
+          }
+        },
+        "hp": {
+          "tokenURL": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+          "jobURL": "https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "kone": {
+          "tokenURL": "https://kone.wd3.myworkdayjobs.com/en-US/Careers",
+          "jobURL": "https://kone.wd3.myworkdayjobs.com/wday/cxs/kone/Careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "nxp": {
+          "tokenURL": "https://nxp.wd3.myworkdayjobs.com/careers",
+          "jobURL": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "old mutual": {
+          "tokenURL": "https://oldmutual.wd3.myworkdayjobs.com/Old_Mutual_Careers",
+          "jobURL": "https://oldmutual.wd3.myworkdayjobs.com/wday/cxs/oldmutual/Old_Mutual_Careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "lseg": {
+          "tokenURL": "https://refinitiv.wd3.myworkdayjobs.com/Careers",
+          "jobURL": "https://refinitiv.wd3.myworkdayjobs.com/wday/cxs/refinitiv/Careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "philips": {
+          "tokenURL": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers",
+          "jobURL": "https://philips.wd3.myworkdayjobs.com/wday/cxs/philips/jobs-and-careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "samsung": {
+          "tokenURL": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers",
+          "jobURL": "https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "siemens gamesa": {
+          "tokenURL": "https://siemensgamesa.wd3.myworkdayjobs.com/SGRE",
+          "jobURL": "https://siemensgamesa.wd3.myworkdayjobs.com/wday/cxs/siemensgamesa/SGRE/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "snc lavalin": {
+          "tokenURL": "https://slihrms.wd3.myworkdayjobs.com/en-US/Careers",
+          "jobURL": "https://slihrms.wd3.myworkdayjobs.com/wday/cxs/slihrms/Careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "sun life": {
+          "tokenURL": "https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs",
+          "jobURL": "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/Experienced-Jobs/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "swift": {
+          "tokenURL": "https://swift.wd3.myworkdayjobs.com/Join-Swift",
+          "jobURL": "https://swift.wd3.myworkdayjobs.com/wday/cxs/swift/Join-Swift/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
+          }
+        },
+        "wolters kluwer": {
+          "tokenURL": "https://wk.wd3.myworkdayjobs.com/External",
+          "jobURL": "https://wk.wd3.myworkdayjobs.com/wday/cxs/wk/External/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": "software"
           }
         }
       }
