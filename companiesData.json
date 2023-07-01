@@ -1,0 +1,95 @@
+{
+    "companies": [
+      {
+        "qualcomm": {
+          "tokenURL": "https://qualcomm.wd5.myworkdayjobs.com/External",
+          "jobURL": "https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0
+          }
+        },
+        "ciena": {
+          "tokenURL": "https://ciena.wd5.myworkdayjobs.com/en-US/Careers",
+          "jobURL": "https://ciena.wd5.myworkdayjobs.com/wday/cxs/ciena/Careers/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0
+          }
+        },
+        "adobe": {
+          "tokenURL": "https://adobe.wd5.myworkdayjobs.com/external_experienced?jobFamilyGroup=591af8b812fa10737af39db3d96eed9f&locationCountry=c4f78be1a8f14da0ab49ce1162348a5e&locations=3ba4ecdf4893100bc84aa7a3f1e46b98&locations=3ba4ecdf4893100bc84a8e6d38d46b70",
+          "jobURL": "https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+          "payload": {
+            "appliedFacets": {
+              "jobFamilyGroup": [
+                "591af8b812fa10737af39db3d96eed9f"
+              ],
+              "locationCountry": [
+                "c4f78be1a8f14da0ab49ce1162348a5e"
+              ],
+              "locations": [
+                "3ba4ecdf4893100bc84aa7a3f1e46b98",
+                "3ba4ecdf4893100bc84a8e6d38d46b70"
+              ]
+            },
+            "limit": 10,
+            "offset": 0,
+            "searchText": ""
+          }
+        },
+        "paypal": {
+          "tokenURL": "https://paypal.wd1.myworkdayjobs.com/jobs",
+          "jobURL": "https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": ""
+          }
+        },
+        "intel": {
+          "tokenURL": "https://intel.wd1.myworkdayjobs.com/External",
+          "jobURL": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": ""
+          }
+        },
+        "bakerhughes": {
+          "tokenURL": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes",
+          "jobURL": "https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["5ec015e5642301a63ebe325f4b504d16"],"locationHierarchy1":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":10,"offset":0,"searchText":""}
+        },
+        "yahoo": {
+          "tokenURL": "https://ouryahoo.wd5.myworkdayjobs.com/careers?jobFamilyGroup=91f14896cbbe0142bf25083fc74637b2&jobFamilyGroup=91f14896cbbe0150163e1d3fc7463fb2",
+          "jobURL": "https://ouryahoo.wd5.myworkdayjobs.com/wday/cxs/ouryahoo/careers/jobs",
+          "payload": {
+            "appliedFacets": {
+              "jobFamilyGroup": [
+                "91f14896cbbe0142bf25083fc74637b2",
+                "91f14896cbbe0150163e1d3fc7463fb2"
+              ]
+            },
+            "limit": 10,
+            "offset": 0,
+            "searchText": ""
+          }
+        },
+        "mcafee": {
+          "tokenURL": "https://mcafee.wd1.myworkdayjobs.com/External/",
+          "jobURL": "https://mcafee.wd1.myworkdayjobs.com/wday/cxs/mcafee/External/jobs",
+          "payload": {
+            "appliedFacets": {},
+            "limit": 10,
+            "offset": 0,
+            "searchText": ""
+          }
+        }
+      }
+    ]
+  }
