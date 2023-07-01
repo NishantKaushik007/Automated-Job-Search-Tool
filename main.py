@@ -1,6 +1,7 @@
 import xlsxwriter
 import threading
 import companyProcessing
+from companyProcessing import getCompanyData
 # Workbook() takes one, non-optional, argument
 # which is the filename that we want to create.
 workbook = xlsxwriter.Workbook('JobPostings.xlsx')
@@ -17,7 +18,7 @@ lock = threading.Lock()
 companies = ["ciena","adobe","qualcomm","paypal","intel","bakerhughes","yahoo","mcafee"]
 threads = []
 for i in companies:
-    t = threading.Thread(target=getattr(companyProcessing,i+'Comp'), args=(lock,worksheet,cell_format))
+    t = threading.Thread(target=getCompanyData, args=(i,lock,worksheet,cell_format))
     threads.append(t)
 
 for i in threads:
