@@ -1,0 +1,31 @@
+name: On Schedule Run
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+
+env:
+  DEVOPS_DIR: devops
+
+jobs:
+  build:
+    name: Trigger Auto Execution
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check-out devops repository
+        uses: actions/checkout@v2
+        with:
+          repository: NishantKaushik007/Automated-Job-Search-Tool
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ env.DEVOPS_DIR }}
+
+      - name: 'Create env file'
+        run: |
+          touch .env
+          cat .env
+      - name: 'Run Script'
+        run: |
+          pip install -r ${{ env.DEVOPS_DIR }}/requirements.txt
+          cd devops
+          python main.py
+        shell: sh
