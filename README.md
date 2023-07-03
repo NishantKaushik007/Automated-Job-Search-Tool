@@ -90,7 +90,6 @@ Automated Job Search Tool is a Python application for building an Excel containi
 <img src=https://amat.wd1.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
 <img src=https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/assets/logo alt="Alt text" width="100"/>
 <img src=https://thales.wd3.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
-<img src=https://tsys.wd1.myworkdayjobs.com/TSYS/assets/logo alt="Alt text" width="100"/>
 <img src=https://pitneybowes.wd1.myworkdayjobs.com/PBCareers/assets/logo alt="Alt text" width="100"/>
 <img src=https://alcon.wd5.myworkdayjobs.com/careers_alcon/assets/logo alt="Alt text" width="100"/>
 <img src=https://motorolasolutions.wd5.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
