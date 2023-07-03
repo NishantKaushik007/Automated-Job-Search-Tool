@@ -1,6 +1,7 @@
 import requests
 import bs4
 import json
+import threading
 
 data = json.load(open('companiesData.json', 'r'))
 
@@ -18,7 +19,7 @@ def initComp(tokenURL,jobURL,payload):
     url = str(jobURL)
     params = {'X-CALYPSO-CSRF-TOKEN': token}
 
-    print(token)
+    print(threading.currentThread().getName().partition("(getCompanyData)")[0], token, '    ', tokenURL)
 
     response = requests.post(url, params=params, data=json.dumps(payload), headers=headers)
 
