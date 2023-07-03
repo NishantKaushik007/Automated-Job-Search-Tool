@@ -3,6 +3,8 @@ import threading
 import companyProcessing
 import os
 from companyProcessing import getCompanyData
+from sendEmail import sendMail
+
 # Workbook() takes one, non-optional, argument
 # which is the filename that we want to create.
 workbook = xlsxwriter.Workbook('JobPostings.xlsx')
@@ -39,5 +41,6 @@ file.seek(0, os.SEEK_END)
 # get the current position of cursor
 # this will be equivalent to size of file
 print("Size of file is :", file.tell(), "bytes")
-
+sendMail()
+file.close()
 os.remove('JobPostings.xlsx')
