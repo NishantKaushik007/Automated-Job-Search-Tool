@@ -1,6 +1,7 @@
 import xlsxwriter
 import threading
 import companyProcessing
+import os
 from companyProcessing import getCompanyData
 # Workbook() takes one, non-optional, argument
 # which is the filename that we want to create.
@@ -29,3 +30,14 @@ for i in threads:
 
 worksheet.autofit()
 workbook.close()
+
+file = open('JobPostings.xlsx')
+
+# get the cursor positioned at end
+file.seek(0, os.SEEK_END)
+
+# get the current position of cursor
+# this will be equivalent to size of file
+print("Size of file is :", file.tell(), "bytes")
+
+os.remove('JobPostings.xlsx')
