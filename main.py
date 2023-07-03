@@ -4,6 +4,7 @@ import companyProcessing
 import os
 from companyProcessing import getCompanyData
 from sendEmail import sendMail
+from telegram_bot import sendToTelegram
 
 # Workbook() takes one, non-optional, argument
 # which is the filename that we want to create.
@@ -42,5 +43,6 @@ file.seek(0, os.SEEK_END)
 # this will be equivalent to size of file
 print("Size of file is :", file.tell(), "bytes")
 sendMail()
+sendToTelegram()
 file.close()
 os.remove('JobPostings.xlsx')
