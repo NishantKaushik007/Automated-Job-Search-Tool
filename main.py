@@ -27,4 +27,5 @@ for i in threads:
 for i in threads:
     i.join()
 
+worksheet.autofit()
 workbook.close()
