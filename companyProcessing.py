@@ -27,9 +27,14 @@ def initComp(tokenURL,jobURL,payload):
 
     jobsDictionary = []
     for i in data['jobPostings']:
-        Job = {'jobTitle': i['title'], 'jobId': i['bulletFields'][0], 'location': i['locationsText'],
-               'postedOn': i['postedOn']}
-        jobsDictionary.append(Job)
+        if (i['postedOn'] == 'Posted 8 Days Ago' or i['postedOn'] == 'Posted 7 Days Ago' or i[
+            'postedOn'] == 'Posted Today' or i[
+            'postedOn'] == 'Posted Yesterday' or i['postedOn'] == 'Posted 6 Days Ago' or i[
+            'postedOn'] == 'Posted 5 Days Ago' or i['postedOn'] == 'Posted 4 Days Ago' or i[
+            'postedOn'] == 'Posted 3 Days Ago' or i['postedOn'] == 'Posted 2 Days Ago'):
+            Job = {'jobTitle': i['title'], 'jobId': i['bulletFields'][0], 'location': i['locationsText'],
+                   'postedOn': i['postedOn'], 'jobLink': tokenURL + i['externalPath']}
+            jobsDictionary.append(Job)
     return jobsDictionary
 
 def writeToExcel(title,jobsDictionary,worksheet,cell_format):
