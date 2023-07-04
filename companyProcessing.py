@@ -5,7 +5,8 @@ import threading
 
 data = json.load(open('companiesData.json', 'r'))
 
-row = 0
+fresher_worksheet_row = 0
+experienced_worksheet_row = 0
 
 
 def initComp(tokenURL, jobURL, payload):
@@ -28,10 +29,18 @@ def initComp(tokenURL, jobURL, payload):
     data = response.json()
 
     jobsDictionary = {}
-    jobsDictionary['full_stack'] = []
-    jobsDictionary['back_end'] = []
-    jobsDictionary['front_end'] = []
-    jobsDictionary['tester'] = []
+    jobsDictionary['fresher'] = {}
+    jobsDictionary['experienced'] = {}
+
+    jobsDictionary['fresher']['full_stack'] = []
+    jobsDictionary['fresher']['back_end'] = []
+    jobsDictionary['fresher']['front_end'] = []
+    jobsDictionary['fresher']['tester'] = []
+
+    jobsDictionary['experienced']['full_stack'] = []
+    jobsDictionary['experienced']['back_end'] = []
+    jobsDictionary['experienced']['front_end'] = []
+    jobsDictionary['experienced']['tester'] = []
 
     for i in data['jobPostings']:
         if (i['postedOn'] == 'Posted 8 Days Ago' or i['postedOn'] == 'Posted 7 Days Ago' or i[
@@ -43,119 +52,223 @@ def initComp(tokenURL, jobURL, payload):
             if(str(i['title']).lower().__contains__('tester') or str(i['title']).lower().__contains__('testing') or str(i['title']).lower().__contains__('tester') or str(i['title']).lower().__contains__('test') or str(i['title']).lower().__contains__('automation')):
                 Job = {'jobTitle': i['title'], 'jobId': i['bulletFields'][0], 'location': i['locationsText'],
                    'postedOn': i['postedOn'], 'jobLink': tokenURL + i['externalPath']}
-                jobsDictionary['tester'].append(Job)
+                if(str(i['title']).lower().__contains__('senior') or str(i['title']).lower().__contains__('engineer 4') or str(i['title']).lower().__contains__('engineer 3') or str(i['title']).lower().__contains__('sr.') or str(i['title']).lower().__contains__('lead') or str(i['title']).lower().__contains__('manager')):
+                    jobsDictionary['experienced']['tester'].append(Job)
+                else:
+                    jobsDictionary['fresher']['tester'].append(Job)
             elif(str(i['title']).lower().__contains__('full stack') or str(i['title']).lower().__contains__('full-stack')):
                 Job = {'jobTitle': i['title'], 'jobId': i['bulletFields'][0], 'location': i['locationsText'],
                    'postedOn': i['postedOn'], 'jobLink': tokenURL + i['externalPath']}
-                jobsDictionary['full_stack'].append(Job)
+                if(str(i['title']).lower().__contains__('senior') or str(i['title']).lower().__contains__('engineer 4') or str(i['title']).lower().__contains__('engineer 3') or str(i['title']).lower().__contains__('sr.') or str(i['title']).lower().__contains__('lead') or str(i['title']).lower().__contains__('manager')):
+                    jobsDictionary['experienced']['full_stack'].append(Job)
+                else:
+                    jobsDictionary['fresher']['full_stack'].append(Job)
             elif (str(i['title']).lower().__contains__('frontend') or str(i['title']).lower().__contains__('ui') or str(i['title']).lower().__contains__('ux')):
                 Job = {'jobTitle': i['title'], 'jobId': i['bulletFields'][0], 'location': i['locationsText'],
                        'postedOn': i['postedOn'], 'jobLink': tokenURL + i['externalPath']}
-                jobsDictionary['front_end'].append(Job)
+                if(str(i['title']).lower().__contains__('senior') or str(i['title']).lower().__contains__('engineer 4') or str(i['title']).lower().__contains__('engineer 3') or str(i['title']).lower().__contains__('sr.') or str(i['title']).lower().__contains__('lead') or str(i['title']).lower().__contains__('manager')):
+                    jobsDictionary['experienced']['front_end'].append(Job)
+                else:
+                    jobsDictionary['fresher']['front_end'].append(Job)
             else:
                 Job = {'jobTitle': i['title'], 'jobId': i['bulletFields'][0], 'location': i['locationsText'],
                        'postedOn': i['postedOn'], 'jobLink': tokenURL + i['externalPath']}
-                jobsDictionary['back_end'].append(Job)
+                if(str(i['title']).lower().__contains__('senior') or str(i['title']).lower().__contains__('engineer 4') or str(i['title']).lower().__contains__('engineer 3') or str(i['title']).lower().__contains__('sr.') or str(i['title']).lower().__contains__('lead') or str(i['title']).lower().__contains__('manager')):
+                    jobsDictionary['experienced']['back_end'].append(Job)
+                else:
+                    jobsDictionary['fresher']['back_end'].append(Job)
 
     # print(jobsDictionary)
     return jobsDictionary
 
 
-def writeToExcel(title, jobsDictionary, worksheet, cell_format):
-    global row
-    worksheet.write(row, 0, str(title).upper(), cell_format)
-    if (not jobsDictionary['full_stack']) and (not jobsDictionary['back_end']) and (not jobsDictionary['front_end']) and (not jobsDictionary['tester']):
-        worksheet.write(row, 1, 'No Openings Found !!', cell_format)
-        row += 2
-        return
-    startRow = row + 1
-    if(jobsDictionary['full_stack']):
-        row += 1
-        worksheet.write(row, 0, 'Full Stack Roles', cell_format)
-        row += 1
-        worksheet.write(row, 0, 'Job Title', cell_format)
-        worksheet.write(row, 1, 'Job Id', cell_format)
-        worksheet.write(row, 2, 'Location', cell_format)
-        worksheet.write(row, 3, 'Posted On', cell_format)
-        worksheet.write(row, 4, 'Job Link', cell_format)
-        row += 1
-        # iterating through content list
-        for item in jobsDictionary['full_stack']:
-            column = 0
-            for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
-                # write operation perform
-                worksheet.write(row, column, item[i])
-                column += 1
-            # incrementing the value of row by one
-            # with each iterations.
-            row += 1
-    if (jobsDictionary['back_end']):
-        row += 1
-        worksheet.write(row, 0, 'Back-End Roles', cell_format)
-        row += 1
-        worksheet.write(row, 0, 'Job Title', cell_format)
-        worksheet.write(row, 1, 'Job Id', cell_format)
-        worksheet.write(row, 2, 'Location', cell_format)
-        worksheet.write(row, 3, 'Posted On', cell_format)
-        worksheet.write(row, 4, 'Job Link', cell_format)
-        row += 1
-        # iterating through content list
-        for item in jobsDictionary['back_end']:
-            column = 0
-            for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
-                # write operation perform
-                worksheet.write(row, column, item[i])
-                column += 1
-            # incrementing the value of row by one
-            # with each iterations.
-            row += 1
-    if (jobsDictionary['front_end']):
-        row += 1
-        worksheet.write(row, 0, 'Front-End Roles', cell_format)
-        row += 1
-        worksheet.write(row, 0, 'Job Title', cell_format)
-        worksheet.write(row, 1, 'Job Id', cell_format)
-        worksheet.write(row, 2, 'Location', cell_format)
-        worksheet.write(row, 3, 'Posted On', cell_format)
-        worksheet.write(row, 4, 'Job Link', cell_format)
-        row += 1
-        # iterating through content list
-        for item in jobsDictionary['front_end']:
-            column = 0
-            for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
-                # write operation perform
-                worksheet.write(row, column, item[i])
-                column += 1
-            # incrementing the value of row by one
-            # with each iterations.
-            row += 1
-    if (jobsDictionary['tester']):
-        row += 1
-        worksheet.write(row, 0, 'Tester Roles', cell_format)
-        row += 1
-        worksheet.write(row, 0, 'Job Title', cell_format)
-        worksheet.write(row, 1, 'Job Id', cell_format)
-        worksheet.write(row, 2, 'Location', cell_format)
-        worksheet.write(row, 3, 'Posted On', cell_format)
-        worksheet.write(row, 4, 'Job Link', cell_format)
-        row += 1
-        # iterating through content list
-        for item in jobsDictionary['tester']:
-            column = 0
-            for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
-                # write operation perform
-                worksheet.write(row, column, item[i])
-                column += 1
-            # incrementing the value of row by one
-            # with each iterations.
-            row += 1
-    endRow = row - 1
-    worksheet.add_table(startRow,0,endRow,4, {'header_row': False})
-    row += 2
-def getCompanyData(companyName, lock, worksheet, cell_format):
+def writeToExcel(title, jobsDictionary, fresher_worksheet, experienced_worksheet, cell_format):
+    global fresher_worksheet_row
+    global experienced_worksheet_row
+    fresher_worksheet.write(fresher_worksheet_row, 0, str(title).upper(), cell_format)
+    experienced_worksheet.write(experienced_worksheet_row, 0, str(title).upper(), cell_format)
+    if (not jobsDictionary['fresher']['full_stack']) and (not jobsDictionary['fresher']['back_end']) and (not jobsDictionary['fresher']['front_end']) and (not jobsDictionary['fresher']['tester']):
+        fresher_worksheet.write(fresher_worksheet_row, 1, 'No Openings Found !!', cell_format)
+        fresher_worksheet_row += 2
+    else:
+        fresher_startRow = fresher_worksheet_row + 1
+        if (jobsDictionary['fresher']['full_stack']):
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Full Stack Roles', cell_format)
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Job Title', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 1, 'Job Id', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 2, 'Location', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 3, 'Posted On', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 4, 'Job Link', cell_format)
+            fresher_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['fresher']['full_stack']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    fresher_worksheet.write(fresher_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                fresher_worksheet_row += 1
+        if (jobsDictionary['fresher']['back_end']):
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Back-End Roles', cell_format)
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Job Title', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 1, 'Job Id', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 2, 'Location', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 3, 'Posted On', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 4, 'Job Link', cell_format)
+            fresher_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['fresher']['back_end']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    fresher_worksheet.write(fresher_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                fresher_worksheet_row += 1
+        if (jobsDictionary['fresher']['front_end']):
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Front-End Roles', cell_format)
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Job Title', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 1, 'Job Id', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 2, 'Location', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 3, 'Posted On', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 4, 'Job Link', cell_format)
+            fresher_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['fresher']['front_end']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    fresher_worksheet.write(fresher_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                fresher_worksheet_row += 1
+        if (jobsDictionary['fresher']['tester']):
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Tester Roles', cell_format)
+            fresher_worksheet_row += 1
+            fresher_worksheet.write(fresher_worksheet_row, 0, 'Job Title', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 1, 'Job Id', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 2, 'Location', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 3, 'Posted On', cell_format)
+            fresher_worksheet.write(fresher_worksheet_row, 4, 'Job Link', cell_format)
+            fresher_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['fresher']['tester']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    fresher_worksheet.write(fresher_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                fresher_worksheet_row += 1
+        fresher_endRow = fresher_worksheet_row - 1
+        fresher_worksheet.add_table(fresher_startRow, 0, fresher_endRow, 4, {'header_row': False})
+        fresher_worksheet_row += 2
+
+    if (not jobsDictionary['experienced']['full_stack']) and (not jobsDictionary['experienced']['back_end']) and (not jobsDictionary['experienced']['front_end']) and (not jobsDictionary['experienced']['tester']):
+        experienced_worksheet.write(experienced_worksheet_row, 1, 'No Openings Found !!', cell_format)
+        experienced_worksheet_row += 2
+    else:
+        experienced_startRow = experienced_worksheet_row + 1
+        if (jobsDictionary['experienced']['full_stack']):
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Full Stack Roles', cell_format)
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Job Title', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 1, 'Job Id', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 2, 'Location', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 3, 'Posted On', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 4, 'Job Link', cell_format)
+            experienced_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['experienced']['full_stack']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    experienced_worksheet.write(experienced_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                experienced_worksheet_row += 1
+        if (jobsDictionary['experienced']['back_end']):
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Back-End Roles', cell_format)
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Job Title', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 1, 'Job Id', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 2, 'Location', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 3, 'Posted On', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 4, 'Job Link', cell_format)
+            experienced_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['experienced']['back_end']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    experienced_worksheet.write(experienced_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                experienced_worksheet_row += 1
+        if (jobsDictionary['experienced']['front_end']):
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Front-End Roles', cell_format)
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Job Title', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 1, 'Job Id', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 2, 'Location', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 3, 'Posted On', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 4, 'Job Link', cell_format)
+            experienced_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['experienced']['front_end']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    experienced_worksheet.write(experienced_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                experienced_worksheet_row += 1
+        if (jobsDictionary['experienced']['tester']):
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Tester Roles', cell_format)
+            experienced_worksheet_row += 1
+            experienced_worksheet.write(experienced_worksheet_row, 0, 'Job Title', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 1, 'Job Id', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 2, 'Location', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 3, 'Posted On', cell_format)
+            experienced_worksheet.write(experienced_worksheet_row, 4, 'Job Link', cell_format)
+            experienced_worksheet_row += 1
+            # iterating through content list
+            for item in jobsDictionary['experienced']['tester']:
+                column = 0
+                for i in ['jobTitle', 'jobId', 'location', 'postedOn', 'jobLink']:
+                    # write operation perform
+                    experienced_worksheet.write(experienced_worksheet_row, column, item[i])
+                    column += 1
+                # incrementing the value of row by one
+                # with each iterations.
+                experienced_worksheet_row += 1
+        experienced_endRow = experienced_worksheet_row - 1
+        experienced_worksheet.add_table(experienced_startRow, 0, experienced_endRow, 4, {'header_row': False})
+        experienced_worksheet_row += 2
+    
+def getCompanyData(companyName, lock, fresher_worksheet, experienced_worksheet, cell_format):
     jobsDictionary = initComp(data['companies'][0][str(companyName)]['tokenURL'],
                               data['companies'][0][str(companyName)]['jobURL'],
                               data['companies'][0][str(companyName)]['payload'])
     lock.acquire()
-    writeToExcel(companyName + ' Company', jobsDictionary, worksheet, cell_format)
+    writeToExcel(companyName + ' Company', jobsDictionary, fresher_worksheet, experienced_worksheet, cell_format)
     lock.release()
