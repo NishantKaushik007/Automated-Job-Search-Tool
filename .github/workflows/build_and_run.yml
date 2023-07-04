@@ -24,10 +24,20 @@ jobs:
           touch .env
           echo API_KEY=${{ secrets.API_KEY }} >> .env
           echo API_SECRET=${{ secrets.API_SECRET }} >> .env
+          echo SHEET_ID=${{ secrets.SHEET_ID }} >> .env
+          echo CLIENT_ID=${{ secrets.CLIENT_ID }} >> .env
+          echo PROJECT_ID=${{ secrets.PROJECT_ID }} >> .env
+          echo AUTH_URI=${{ secrets.AUTH_URI }} >> .env
+          echo TOKEN_URI=${{ secrets.TOKEN_URI }} >> .env
+          echo AUTH_PROVIDER_X509_CERT_URL=${{ secrets.AUTH_PROVIDER_X509_CERT_URL }} >> .env
+          echo CLIENT_SECRET=${{ secrets.CLIENT_SECRET }} >> .env
+          echo REDIRECT_URIS=${{ secrets.REDIRECT_URIS }} >> .env
           cat .env
       - name: 'Run Script'
         run: |
           pip install -r ${{ env.DEVOPS_DIR }}/requirements.txt
+          pip install google_spreadsheet
+          pip install google-auth-oauthlib
           cd devops
           python main.py
         shell: sh
