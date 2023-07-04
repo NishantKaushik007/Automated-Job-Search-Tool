@@ -32,8 +32,8 @@ def sendMail():
                 ],
                 "Bcc": [
                     {
-                        "Email": "ankitgv.kvtagore@gmail.com",
-                        "Name": "Ankit Gupta"
+                        "Email": "nkaushik0702@gmail.com",
+                        "Name": "Nishant Kaushik"
                     }
                 ],
                 "TemplateID": 4925584,
