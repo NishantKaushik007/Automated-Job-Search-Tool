@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 def sendToTelegram():
     load_dotenv()
-    bot_token = '6391669202:AAF9B0vCiJT8rBKj-TET05Lv4dsUC6SNGtM'
+    bot_token = os.getenv('Bot_Token')
     channel_id = '@automatedJobSearchTool'
     file_path = 'JobPostings.xlsx'
     today = date.today()
