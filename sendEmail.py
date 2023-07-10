@@ -11,8 +11,8 @@ def sendMail():
     data = open('JobPostings.xlsx', 'rb').read()
     base64_encoded = base64.b64encode(data).decode('UTF-8')
     # print(base64_encoded)
-    api_key = os.getenv('Api_Key')
-    api_secret = os.getenv('Api_Secret')
+    api_key = os.getenv('API_KEY')
+    api_secret = os.getenv('API_SECRET')
     # template_id = os.getenv('TEMPLATE_ID')
     df = readExcel()
     chunk_size = 49

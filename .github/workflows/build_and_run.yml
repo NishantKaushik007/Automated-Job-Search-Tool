@@ -32,6 +32,7 @@ jobs:
           echo AUTH_PROVIDER_X509_CERT_URL=${{ secrets.AUTH_PROVIDER_X509_CERT_URL }} >> .env
           echo CLIENT_SECRET=${{ secrets.CLIENT_SECRET }} >> .env
           echo REDIRECT_URIS=${{ secrets.REDIRECT_URIS }} >> .env
+          echo Bot_Token=${{ secrets.Bot_Token }} >> .env
           cat .env
       - name: 'Run Script'
         run: |
