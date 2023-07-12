@@ -530,6 +530,21 @@
           "tokenURL": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers",
           "jobURL": "https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylProfessionalCareers/jobs",
           "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "statestreet": {
+          "tokenURL": "https://statestreet.wd1.myworkdayjobs.com/Global",
+          "jobURL": "https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
+          "payload": {"appliedFacets":{"Location_Country":["c4f78be1a8f14da0ab49ce1162348a5e"],"jobFamilyGroup":["56250981e7cb01b9a0c0c6893041490c"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "stryker": {
+          "tokenURL": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers",
+          "jobURL": "https://stryker.wd1.myworkdayjobs.com/wday/cxs/stryker/StrykerCareers/jobs",
+          "payload": {"appliedFacets":{"Location_Country":["c4f78be1a8f14da0ab49ce1162348a5e"],"jobFamilyGroup":["3156b848d19b01fc399c836d61121f19"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "empower": {
+          "tokenURL": "https://empower.wd5.myworkdayjobs.com/empower",
+          "jobURL": "https://empower.wd5.myworkdayjobs.com/wday/cxs/empower/empower/jobs",
+          "payload": {"appliedFacets":{"Location_Country":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
         }
       }
     ]

@@ -110,7 +110,7 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://mavenir.wd1.myworkdayjobs.com/Mavenir_Careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://transunion.wd5.myworkdayjobs.com/TransUnion/assets/logo alt="Alt text" width="100"/>
 <img src=https://jobs.natwestgroup.com/system/production/assets/332852/original/nwgc-neg-rgb.png alt="Alt text" width="100"/>
-<img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAA+CAMAAAAmsHQcAAAAY1BMVEX///8AAAB4eHi1tbWmpqb7+/ttbW3t7e24uLiIiIhWVlbR0dGwsLCjo6NfX191dXV+fn7Y2NiZmZnExMSSkpITExNQUFDKysowMDAiIiJDQ0M5OTkcHBz19fXe3t5LS0spKSnHgPeJAAAB7ElEQVRYhe2UadarMAiGgzGN8xSt87D/VX4QtPae09tugOePHEJ4CSQqJQiCIAiCIAiC8JtsBhgaq1STFEVR5qsiM1bKlEViOcYVAIlGIy2Da5+tFhjalZ1IFZ6xZeu/Ydl8k8WMnlqVp5UqNJ/KTOT0VLzQWaUBDPv607cpcnomvzAAbPR9YI7/kwNUdk13PEYAc9pnHWUOoDCzz+k7QjFWL426dS1gtHUYrVSEtdZ1y2U6LODBuskX3eFeDXzBNUCG5j7DcTZZHVDQhwRfuqhCyylFo+66mgxGWtqh4gN/1bW07x9drCRGk9t6x7TdeHTu1k24FrVASbqenMs2KP1LdwV4TZ91zQgt6T5HGN51F5xbdOsW5/Q61EDdqqrwomjyxzT69Vefd+7OFl66OEyH5kAt5COpiRtx6rIv52lGFB2xc8L4Dd/GhA+k/aWL2Y/MxQAhio1BWfhrGdCe/OoF1r+7vqHzoG5MWLPglhR9sxfPsgzt+PUm8MAPfGUYiSnq7YNwxnGFxUC2DNW6+wnhCd9invay8OLYg33r2zsylmozNJnmeqCLWiP36cQ2D4KGKkp1FEXOX6ZU9zRqraMr5vFoKWbLQ8L/XHSZVD7j6ezJyv34da6VYy9eW2s/6QqCIAiCIAiCILzzB1wCFpymPWsaAAAAAElFTkSuQmCC alt="Alt text" width="100"/>
+<img src=https://cdk.wd1.myworkdayjobs.com/CDK/assets/logo alt="Alt text" width="100"/>
 <img src=https://sensata.wd1.myworkdayjobs.com/Sensata-Careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://alliancedata.wd5.myworkdayjobs.com/breadfinancial_US/assets/logo alt="Alt text" width="100"/>
 <img src=https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/assets/logo alt="Alt text" width="100"/>
@@ -121,6 +121,9 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://wd1.myworkdaysite.com/recruiting/snapchat/snap/assets/logo alt="Alt text" width="100"/>
 <img src=https://activision.wd1.myworkdayjobs.com/King_External_Careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://s7d1.scene7.com/is/content/kyndryl/kyndryl-logo?qlt=85&ts=1650896484311&$SVG-Transparency$&dpr=off alt="Alt text" width="100"/>
+<img src=https://statestreet.wd1.myworkdayjobs.com/Global/assets/logo alt="Alt text" width="100"/>
+<img src=https://stryker.wd1.myworkdayjobs.com/StrykerCareers/assets/logo alt="Alt text" width="100"/>
+<img src=https://empower.wd5.myworkdayjobs.com/empower/assets/logo alt="Alt text" width="100"/>
 </p>
 
 ## Installation
