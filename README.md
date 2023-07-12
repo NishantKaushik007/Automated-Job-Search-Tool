@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white")](https://www.linkedin.com/in/nishant-kaushik-0a7253106/)
 [![Subscribe](https://img.shields.io/badge/Subscribe%20for%20Daily%20Job%20Postings-red?style=for-the-badge&logo=gmail&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSeeEIiq9SX_ewhXMVB9DDbXeQxf0VB1NXGm9uMwVeYjN1Ehqw/viewform?usp=sf_link)
-[![Join Telegram](https://img.shields.io/badge/Subscribe%20for%20Daily%20Job%20Postings-blue?style=for-the-badge&logo=telegram&logoColor=white")](https://www.linkedin.com/in/nishant-kaushik-0a7253106/)
+[![Join Telegram](https://img.shields.io/badge/Subscribe%20for%20Daily%20Job%20Postings-blue?style=for-the-badge&logo=telegram&logoColor=white")](https://t.me/automatedJobSearchTool)
 
 
 The Automated Job Search Tool is a powerful Python application that streamlines the job search process by automating the scanning of 100+ companie's career sites. It compiles a detailed Excel file with job postings, including vital information like job title, location, job ID, date of posting, and Job URL. The tool's efficient threading implementation retrieves job openings from 100+ companies in just 2 seconds, ensuring users are up-to-date with the latest opportunities.
