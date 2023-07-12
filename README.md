@@ -1,6 +1,19 @@
 # Automated-Job-Search-Tool
 
-Automated Job Search Tool is a Python application for building an Excel containing postings.
+[![Schedule Run](https://github.com/NishantKaushik007/Automated-Job-Search-Tool/actions/workflows/build_and_run.yml/badge.svg?branch=master)](https://github.com/NishantKaushik007/Automated-Job-Search-Tool/actions/workflows/build_and_run.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white")](https://www.linkedin.com/in/nishant-kaushik-0a7253106/)
+[![Subscribe](https://img.shields.io/badge/Subscribe%20for%20Daily%20Job%20Postings-red?style=for-the-badge&logo=gmail&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSeeEIiq9SX_ewhXMVB9DDbXeQxf0VB1NXGm9uMwVeYjN1Ehqw/viewform?usp=sf_link)
+[![Join Telegram](https://img.shields.io/badge/Subscribe%20for%20Daily%20Job%20Postings-blue?style=for-the-badge&logo=telegram&logoColor=white")](https://www.linkedin.com/in/nishant-kaushik-0a7253106/)
+
+
+The Automated Job Search Tool is a powerful Python application that streamlines the job search process by automating the scanning of 100+ companie's career sites. It compiles a detailed Excel file with job postings, including vital information like job title, location, job ID, date of posting, and Job URL. The tool's efficient threading implementation retrieves job openings from 100+ companies in just 2 seconds, ensuring users are up-to-date with the latest opportunities.
+
+To enhance accessibility, the tool is integrated with automated email and Telegram services, delivering daily job updates directly to subscriber's preferred communication channels. This eliminates the need for manual checks or visiting multiple websites, making the job search process more efficient and hassle-free. The integration of automated email and Telegram services saves time and ensures subscribers stay informed about new job postings. This enables them to review opportunities promptly, take immediate action, and increase their chances of securing desired positions.
+
+Furthermore, the tool offers extensive customization options, allowing users to personalize their search criteria. They can specify dream companies, preferred job location, job categories, and more, resulting in highly relevant and tailored results that align precisely with their unique career goals.
+
+Overall, the Automated Job Search Tool combines comprehensive job search capabilities with automated notifications, offering users an all-in-one solution for finding their dream job.
 
 ## Currently Supported Companies 
 
@@ -19,17 +32,17 @@ Automated Job Search Tool is a Python application for building an Excel containi
 <img src=https://alliance.wd3.myworkdayjobs.com/nissanjobs/assets/logo alt="Alt text" width="100"/>
 <img src=https://cae.wd3.myworkdayjobs.com/career/assets/logo alt="Alt text" width="100"/>
 <img src=https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/assets/logo alt="Alt text" width="100"/>
-<img src=https://dh.wd3.myworkdayjobs.com/wday/cxs/dh/DHC/sidebarimage/6176100499f2201b24c3f46d427020d01 alt="Alt text" width="100"/>
+<img src=https://dh.wd3.myworkdayjobs.com/DHC/assets/logo alt="Alt text" width="100"/>
 <img src=https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/sidebarimage/1ccf18eff185101ddaaab706fd2c0000 alt="Alt text" width="100"/>
 <img src=https://kone.wd3.myworkdayjobs.com/wday/cxs/kone/Careers/sidebarimage/fb5ad9e04d5f01c17295ff0626021701 alt="Alt text" width="100"/>
 <img src=https://nxp.wd3.myworkdayjobs.com/careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://oldmutual.wd3.myworkdayjobs.com/wday/cxs/oldmutual/Old_Mutual_Careers/sidebarimage/fe74dadff549010ef730d7f528021a01 alt="Alt text" width="100"/>
 <img src=https://refinitiv.wd3.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
-<img src=https://philips.wd3.myworkdayjobs.com/wday/cxs/philips/jobs-and-careers/sidebarimage/6f18dc01ce21001c02189c39228022b01 alt="Alt text" width="100"/>
+<img src=https://philips.wd3.myworkdayjobs.com/jobs-and-careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/sidebarimage/906b7ba8972101bcc1cf621a09052201 alt="Alt text" width="100"/>
 <img src=https://siemensgamesa.wd3.myworkdayjobs.com/wday/cxs/siemensgamesa/SGRE/sidebarimage/b4576130f39401ab0f4c5dd426020c01 alt="Alt text" width="100"/>
 <img src=https://slihrms.wd3.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
-<img src=https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/Experienced-Jobs/sidebarimage/06c4e9d70d0901d82ee9a45e2602f1000 alt="Alt text" width="100"/>
+<img src=https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs/assets/logo alt="Alt text" width="100"/>
 <img src=https://swift.wd3.myworkdayjobs.com/wday/cxs/swift/Join-Swift/sidebarimage/2f8e28c38f1f1000a41294aed8c60000 alt="Alt text" width="100"/>
 <img src=https://wk.wd3.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
 <img src=https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/assets/logo alt="Alt text" width="100"/>
@@ -115,15 +128,49 @@ Automated Job Search Tool is a Python application for building an Excel containi
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages.
 
 ```bash
+cd Automated-Job-Search-Tool
 pip install -r requirements.txt
+pip install google_spreadsheet
+pip install google-auth-oauthlib
+```
+
+To execute the code, run the following command :
+
+```bash
+python main.py
 ```
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Please make sure to update tests as appropriate.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also open an issue for major changes to discuss what you would like to change.
+Please make sure to update tests as appropriate. Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b ......`)
+3. Commit your Changes (`git commit -m 'What changes are made'`)
+4. Push to the Branch (`git push origin ......`)
+5. Open a Pull Request
+
+## Screenshots
+
+Some Screen Shots of Services provided by Tool :
+
+<div align="center">
+    <img src="Services SS/Sample Excel.png">
+    <h4>Screen Shot of Sample Excel generated by Tool</h4>
+</div>
+
+<div align="center">
+    <img src="Services SS/Sample Email.png">
+    <h4>Screen Shot of Sample Email</h4>
+</div>
+
+<div align="center">
+    <img src="Services SS/Sample Telegram Notification.png">
+    <h4>Screen Shot of Sample Telegram Notification</h4>
+</div>
 
 ## License
 
