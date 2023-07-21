@@ -124,6 +124,12 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://statestreet.wd1.myworkdayjobs.com/Global/assets/logo alt="Alt text" width="100"/>
 <img src=https://stryker.wd1.myworkdayjobs.com/StrykerCareers/assets/logo alt="Alt text" width="100"/>
 <img src=https://empower.wd5.myworkdayjobs.com/empower/assets/logo alt="Alt text" width="100"/>
+<img src=https://monotype.wd1.myworkdayjobs.com/Monotype/assets/logo alt="Alt text" width="100"/>
+<img src=https://ffive.wd5.myworkdayjobs.com/f5jobs/assets/logo alt="Alt text" width="100"/>
+<img src=https://nuance.wd1.myworkdayjobs.com/Nuance/assets/logo alt="Alt text" width="100"/>
+<img src=https://verizon.wd5.myworkdayjobs.com/verizon-careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://merative.wd1.myworkdayjobs.com/External_Career_Site/assets/logo alt="Alt text" width="100"/>
+<img src=https://gen.wd1.myworkdayjobs.com/careers/assets/logo alt="Alt text" width="100"/>
 </p>
 
 ## Installation

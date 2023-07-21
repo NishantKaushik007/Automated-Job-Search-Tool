@@ -545,6 +545,36 @@
           "tokenURL": "https://empower.wd5.myworkdayjobs.com/empower",
           "jobURL": "https://empower.wd5.myworkdayjobs.com/wday/cxs/empower/empower/jobs",
           "payload": {"appliedFacets":{"Location_Country":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "monotype": {
+          "tokenURL": "https://monotype.wd1.myworkdayjobs.com/Monotype",
+          "jobURL": "https://monotype.wd1.myworkdayjobs.com/wday/cxs/monotype/Monotype/jobs",
+          "payload": {"appliedFacets":{"locations":["1281dade9cc110a0c3a6d08303ec6d22","5d3e73514e8e1000f974d2a3306f0000","1281dade9cc110a0c3a70e91b6e36d77","eb6eb031ebb9010155dbf3c213f30000","1281dade9cc110a0c3a6b637878a6cff","278702f1b04001f9d26441c45c01291d","1281dade9cc110a0c3a70af254d96d72","8d8a7755a14d0106b9a2657ea5584e1e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "ffive": {
+          "tokenURL": "https://ffive.wd5.myworkdayjobs.com/f5jobs",
+          "jobURL": "https://ffive.wd5.myworkdayjobs.com/wday/cxs/ffive/f5jobs/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "nuance": {
+          "tokenURL": "https://nuance.wd1.myworkdayjobs.com/Nuance",
+          "jobURL": "https://nuance.wd1.myworkdayjobs.com/wday/cxs/nuance/Nuance/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "verizon": {
+          "tokenURL": "https://verizon.wd5.myworkdayjobs.com/verizon-careers",
+          "jobURL": "https://verizon.wd5.myworkdayjobs.com/wday/cxs/verizon/verizon-careers/jobs",
+          "payload": {"appliedFacets":{"locations":["4466d54cbeba1000c05cff9bdacc0000","4466d54cbeba1000c057b4c460500000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "merative": {
+          "tokenURL": "https://merative.wd1.myworkdayjobs.com/External_Career_Site",
+          "jobURL": "https://merative.wd1.myworkdayjobs.com/wday/cxs/merative/External_Career_Site/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"],"jobFamilyGroup":["a1e98cb2ea441000df269bda68f20000"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "gen": {
+          "tokenURL": "https://gen.wd1.myworkdayjobs.com/careers",
+          "jobURL": "https://gen.wd1.myworkdayjobs.com/wday/cxs/gen/careers/jobs",
+          "payload": {"appliedFacets":{"locations":["d202fc63bc7d01a0c5acff1bf7018253","d202fc63bc7d01e532665a1ef701ca54","c8fee6731982010163feb7b0f60f0000","d202fc63bc7d012f94aa921cf701d253","8e9e77cbd32d403e8e6ffb38d990c849","d202fc63bc7d01009ac06118f701b151","d202fc63bc7d019867d6e019f7017e52"],"jobFamilyGroup":["f0cfdff3f4311000b8ae5a80a71b0000"]},"limit":20,"offset":0,"searchText":""}
         }
       }
     ]
