@@ -1,6 +1,6 @@
 # Automated-Job-Search-Tool
 
-[![Schedule Run](https://github.com/NishantKaushik007/Automated-Job-Search-Tool/actions/workflows/build_and_run.yml/badge.svg?branch=master)](https://github.com/NishantKaushik007/Automated-Job-Search-Tool/actions/workflows/build_and_run.yml)
+[![Schedule Run](https://github.com/NishantKaushik007/Automated-Job-Search-Tool/actions/workflows/build_and_run.yml/badge.svg?branch=main)](https://github.com/NishantKaushik007/Automated-Job-Search-Tool/actions/workflows/build_and_run.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white")](https://www.linkedin.com/in/nishant-kaushik-0a7253106/)
 [![Subscribe](https://img.shields.io/badge/Subscribe%20for%20Daily%20Job%20Postings-red?style=for-the-badge&logo=gmail&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSeeEIiq9SX_ewhXMVB9DDbXeQxf0VB1NXGm9uMwVeYjN1Ehqw/viewform?usp=sf_link)
