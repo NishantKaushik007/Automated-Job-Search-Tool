@@ -1,0 +1,44 @@
+name: On Schedule Run
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+
+env:
+  DEVOPS_DIR: devops
+
+jobs:
+  build:
+    name: Trigger Auto Execution
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check-out devops repository
+        uses: actions/checkout@v2
+        with:
+          repository: NishantKaushik007/Automated-Job-Search-Tool
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ env.DEVOPS_DIR }}
+
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo API_KEY=${{ secrets.API_KEY }} >> .env
+          echo API_SECRET=${{ secrets.API_SECRET }} >> .env
+          echo SHEET_ID=${{ secrets.SHEET_ID }} >> .env
+          echo CLIENT_ID=${{ secrets.CLIENT_ID }} >> .env
+          echo PROJECT_ID=${{ secrets.PROJECT_ID }} >> .env
+          echo AUTH_URI=${{ secrets.AUTH_URI }} >> .env
+          echo TOKEN_URI=${{ secrets.TOKEN_URI }} >> .env
+          echo AUTH_PROVIDER_X509_CERT_URL=${{ secrets.AUTH_PROVIDER_X509_CERT_URL }} >> .env
+          echo CLIENT_SECRET=${{ secrets.CLIENT_SECRET }} >> .env
+          echo REDIRECT_URIS=${{ secrets.REDIRECT_URIS }} >> .env
+          echo Bot_Token=${{ secrets.Bot_Token }} >> .env
+          cat .env
+      - name: 'Run Script'
+        run: |
+          pip install -r ${{ env.DEVOPS_DIR }}/requirements.txt
+          pip install google_spreadsheet
+          pip install google-auth-oauthlib
+          cd devops
+          python main.py
+        shell: sh
