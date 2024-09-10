@@ -107,9 +107,9 @@
           }
         },
         "lseg": {
-          "tokenURL": "https://refinitiv.wd3.myworkdayjobs.com/Careers",
-          "jobURL": "https://refinitiv.wd3.myworkdayjobs.com/wday/cxs/refinitiv/Careers/jobs",
-          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"],"primaryLocation":["5678881b47f61012abcca16c3fb1d435","d7b26a420c6f44f39fde26c2e9bc5886","1136a4bcc77543f6b7e4ef3317bc9622","6723530f60d3476493c6f70873a3918a"]},"limit":20,"offset":0,"searchText":"software"}
+          "tokenURL": "https://lseg.wd3.myworkdayjobs.com/Careers",
+          "jobURL": "https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Careers/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"],"CF_Lookup_Business_Unit_Level_02__Job_Posting_Anchor__Extended":["9c1f71183c10016d116d72382401ff75"]},"limit":20,"offset":0,"searchText":"software"}
         },
         "philips": {
           "tokenURL": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers",
@@ -575,6 +575,181 @@
           "tokenURL": "https://gen.wd1.myworkdayjobs.com/careers",
           "jobURL": "https://gen.wd1.myworkdayjobs.com/wday/cxs/gen/careers/jobs",
           "payload": {"appliedFacets":{"locations":["d202fc63bc7d01a0c5acff1bf7018253","d202fc63bc7d01e532665a1ef701ca54","c8fee6731982010163feb7b0f60f0000","d202fc63bc7d012f94aa921cf701d253","8e9e77cbd32d403e8e6ffb38d990c849","d202fc63bc7d01009ac06118f701b151","d202fc63bc7d019867d6e019f7017e52"],"jobFamilyGroup":["f0cfdff3f4311000b8ae5a80a71b0000"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "workiva": {
+          "tokenURL": "https://workiva.wd1.myworkdayjobs.com/careers",
+          "jobURL": "https://workiva.wd1.myworkdayjobs.com/wday/cxs/workiva/careers/jobs",
+          "payload": {"appliedFacets":{"locations":["57a493ba692901e358bb84abc900777a","57a493ba6929014c2e93af43c2007b6c"],"jobFamilyGroup":["75715069c9720196b19bd65ab32bc01a"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "blackberry": {
+          "tokenURL": "https://bb.wd3.myworkdayjobs.com/en-US/BlackBerry",
+          "jobURL": "https://bb.wd3.myworkdayjobs.com/wday/cxs/bb/BlackBerry/jobs",
+          "payload": {"appliedFacets":{"Country":["c4f78be1a8f14da0ab49ce1162348a5e"],"locations":["dd3fac98ba5910631f8fe21bd3678845","b15feefdaa031001b5e1e32ca4710000","7fccfe3cc1650198795ba900e67347cf","08618da7938010f7fa6d8c58769949ea"],"Functional_Area":["c756b1bbadec10e14dc41446721441c6"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "harris": {
+          "tokenURL": "https://harriscomputer.wd3.myworkdayjobs.com/en-US/1",
+          "jobURL": "https://harriscomputer.wd3.myworkdayjobs.com/wday/cxs/harriscomputer/1/jobs",
+          "payload": {"appliedFacets":{"locations":["b8d7593b4c00016b7063ad9eed01e974","717e2b7dec5a01211daad41b6a397437"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "traveloka": {
+          "tokenURL": "https://traveloka.wd3.myworkdayjobs.com/Traveloka",
+          "jobURL": "https://traveloka.wd3.myworkdayjobs.com/wday/cxs/traveloka/Traveloka/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["736c9e1d51f00117e305b2ddf8002d0e"],"locations":["54355fb0addc01ae4706b48fb000d011"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "expedia": {
+          "tokenURL": "https://expedia.wd5.myworkdayjobs.com/en-US/search",
+          "jobURL": "https://expedia.wd5.myworkdayjobs.com/wday/cxs/expedia/search/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["c553432013ba103b60decedc3beb2900"],"locations":["c553432013ba103bbc5cc6e3faef5396","c553432013ba103bbc5b28efceb250b1"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "alteryx": {
+          "tokenURL": "https://alteryx.wd5.myworkdayjobs.com/AlteryxCareers",
+          "jobURL": "https://alteryx.wd5.myworkdayjobs.com/wday/cxs/alteryx/AlteryxCareers/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["d4c81826a4e30196ed75d311852aa6d0"],"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "invesco": {
+          "tokenURL": "https://invesco.wd1.myworkdayjobs.com/IVZ",
+          "jobURL": "https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["97a56ab3ad0b1018c668298bbb010001"],"locations":["1804888b7f5a100128e426fb60bc0000","97a56ab3ad0b1018fdd9dbc5d3080000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "f5": {
+          "tokenURL": "https://ffive.wd5.myworkdayjobs.com/f5jobs",
+          "jobURL": "https://ffive.wd5.myworkdayjobs.com/wday/cxs/ffive/f5jobs/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"],"CF_-_Job_Posting_Category_Extended":["ebc0867ff0da10015d4881e40be60000"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "lytx": {
+          "tokenURL": "https://lytx.wd1.myworkdayjobs.com/Lytx",
+          "jobURL": "https://lytx.wd1.myworkdayjobs.com/wday/cxs/lytx/Lytx/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["8cdd6b31ba79018107d525c7e3361698"],"locations":["bf51d618ac540101aaa18492e81c0000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "johnson controls": {
+          "tokenURL": "https://jci.wd5.myworkdayjobs.com/en-US/JCI",
+          "jobURL": "https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["e6c5fb966d2f103b0676ec44ac856a22"],"locations":["59c45107aefd0100150a39cae16f0000","602140fd330f01014fbd973c30f90000","e88f6c8d9378103bfb1c0907ebfdb697","1daf0a5cdb4a108318290feb44a9c6ab","1daf0a5cdb4a10831829011a4839c6a1","8a6647241218010014dc0448de550000","d88b8274a28d01001508f0577a610000","55a017a9be5601546407b4f99d018ec0","5d89c910febd010014edfa0ce32d0000"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "dow": {
+          "tokenURL": "https://dow.wd1.myworkdayjobs.com/ExternalCareers",
+          "jobURL": "https://dow.wd1.myworkdayjobs.com/wday/cxs/dow/ExternalCareers/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["a0f6e0da36fe01230d04d0befc09a519"],"Location_Country":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "gap inc.": {
+          "tokenURL": "https://gapinc.wd1.myworkdayjobs.com/GAPINC",
+          "jobURL": "https://gapinc.wd1.myworkdayjobs.com/wday/cxs/gapinc/GAPINC/jobs",
+          "payload": {"appliedFacets":{"Talent_Area":["f90484943155014eb06cafa9ec215cb8"],"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "light & wonder": {
+          "tokenURL": "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers",
+          "jobURL": "https://lnw.wd5.myworkdayjobs.com/wday/cxs/lnw/LightWonderExternalCareers/jobs",
+          "payload": {"appliedFacets":{"jobFamily":["68b4efa7d52b1000d370c30457d20000","4dbee1b6747501c9346bd3ced9174609","4dbee1b6747501a15d52cfced9172c09","68b4efa7d52b1000d370bc5f4c900000","4dbee1b674750152608adaced9176c09"],"jobFamilyGroup":["68b4efa7d52b1000d4278750b2a20000","68b4efa7d52b1000d427d53ebe320000","68b4efa7d52b1000d4277234e86e0000","4dbee1b67475011102f42bb9dc17de0b"],"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "cloudera": {
+          "tokenURL": "https://cloudera.wd5.myworkdayjobs.com/External_Career",
+          "jobURL": "https://cloudera.wd5.myworkdayjobs.com/wday/cxs/cloudera/External_Career/jobs",
+          "payload": {"appliedFacets":{"Business_Area":["f853f08c27131022d118a7c835002927"],"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "clario": {
+          "tokenURL": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers",
+          "jobURL": "https://clarioclinical.wd1.myworkdayjobs.com/wday/cxs/clarioclinical/clarioclinical_careers/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["2a8f2741763d01019d294e01466c0000","2a8f2741763d01019d1077cfbeff0000"],"locations":["bf3c03fad4641084a8a760f314da2029","8e737a0e57ad012960f13b2ac9a42c2d","51c0ad319cab1076c51df601d73afd94","51c0ad319cab10766c195af5bb6b5128"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "avnet": {
+          "tokenURL": "https://wd1.myworkdaysite.com/recruiting/avnet/External",
+          "jobURL": "https://wd1.myworkdaysite.com/wday/cxs/avnet/External/jobs",
+          "payload": {"appliedFacets":{"locations":["75f05834b98c1001dabbdc25ee1e0000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "duck creek": {
+          "tokenURL": "https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers",
+          "jobURL": "https://duckcreek.wd1.myworkdayjobs.com/wday/cxs/duckcreek/duckcreekcareers/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["56623162528e01ec5af364590b0a6b38"],"locations":["bcd1c7a5276d01977595dced05015456","3935c9536a86102139a3c143b310900b","13a10923630a1001ff7bd4e3b7ec0000","3935c9536a86102139a3666626c78fc0"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "epiq": {
+          "tokenURL": "https://epiqsystems.wd5.myworkdayjobs.com/Epiq_Careers",
+          "jobURL": "https://epiqsystems.wd5.myworkdayjobs.com/wday/cxs/epiqsystems/Epiq_Careers/jobs",
+          "payload": {"appliedFacets":{"jobFamily":["88ae840e405b1065d96657b8cf3cb25d"],"locations":["7c363acc2e9701b43ee420019f51295c"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "commvault": {
+          "tokenURL": "https://commvault.wd1.myworkdayjobs.com/commvault",
+          "jobURL": "https://commvault.wd1.myworkdayjobs.com/wday/cxs/commvault/commvault/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "lilly": {
+          "tokenURL": "https://lilly.wd5.myworkdayjobs.com/en-us/lly",
+          "jobURL": "https://lilly.wd5.myworkdayjobs.com/wday/cxs/lilly/lly/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["99c6e09d03e80198acd7817ff04af833"],"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "cardinal health": {
+          "tokenURL": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT",
+          "jobURL": "https://cardinalhealth.wd1.myworkdayjobs.com/wday/cxs/cardinalhealth/EXT/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["18e1778e3dfc455b8d4ba4566ded3c06"],"Location_Country":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "disney": {
+          "tokenURL": "https://disney.wd5.myworkdayjobs.com/disneycareer",
+          "jobURL": "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["4f84d9e8a097010115f0cde63e9e0000","4f84d9e8a097010115f104197eec0000"],"locations":["4f84d9e8a09701011a7577611dff0000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "maersk": {
+          "tokenURL": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Manual",
+          "jobURL": "https://maersk.wd3.myworkdayjobs.com/wday/cxs/maersk/Maersk_Manual/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["0d1a9a0723441001ef28e3fa8deb0000"],"locations":["4e4d26638c450107879f19c9b39b0000","4e4d26638c45010787a265e08d260000","4e4d26638c45010787a24d3a78f50000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "r1": {
+          "tokenURL": "https://r1rcm.wd1.myworkdayjobs.com/R1RCM",
+          "jobURL": "https://r1rcm.wd1.myworkdayjobs.com/wday/cxs/r1rcm/R1RCM/jobs",
+          "payload": {"appliedFacets":{"locations":["e3535f52ae3c0102ddc38a422f1d0000","e3535f52ae3c0102ddc6c9a57e0c0000","e3535f52ae3c0102ddc0ebb60ca70000","e3535f52ae3c0102ddc962672ed20000","e3535f52ae3c0102ddc96131ac4d0000","e3535f52ae3c0102ddc8f21a19a00000","e3535f52ae3c0102ddc63d580fce0000","7e89cad1fd090101da80e1aa8e9a0000","e3535f52ae3c0102ddc8920e7e9f0000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "kion group": {
+          "tokenURL": "https://kiongroup.wd3.myworkdayjobs.com/en-US/KIONGroup",
+          "jobURL": "https://kiongroup.wd3.myworkdayjobs.com/wday/cxs/kiongroup/KIONGroup/jobs",
+          "payload": {"appliedFacets":{"Country":["c4f78be1a8f14da0ab49ce1162348a5e"],"jobFamilyGroup":["e1577d0fdc110185c48f1ee175095d56","e1577d0fdc11012ef04611e175094156"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "tns": {
+          "tokenURL": "https://tnsi.wd1.myworkdayjobs.com/Search",
+          "jobURL": "https://tnsi.wd1.myworkdayjobs.com/wday/cxs/tnsi/Search/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["a19d2178a619015e799246b6f81e114d"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "csg": {
+          "tokenURL": "https://csgi.wd5.myworkdayjobs.com/CSGCareers",
+          "jobURL": "https://csgi.wd5.myworkdayjobs.com/wday/cxs/csgi/CSGCareers/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["2679412f35711000b2487cfe18d62549"],"locations":["fb15c92245d71000ccf35b08cf0b0000","2679412f35711000b7089f16ed0b3028","2679412f35711000b70ae4bf28ef3287"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "micron": {
+          "tokenURL": "https://micron.wd1.myworkdayjobs.com/zh-US/External",
+          "jobURL": "https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["bff7a31dbdd301db8c6a850caa011462"],"locations":["bff7a31dbdd30184310850b464010808","bff7a31dbdd301f4102c28b56401600a"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "genesys": {
+          "tokenURL": "https://genesys.wd1.myworkdayjobs.com/Genesys",
+          "jobURL": "https://genesys.wd1.myworkdayjobs.com/wday/cxs/genesys/Genesys/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["0b40e66ca32e1025ac5265e727b00002"],"locations":["0b40e66ca32e1025ad2471a948c60000","0b40e66ca32e1025ad245a3258550000","3da5aafdee30100210ff9fb2a7ae0000","0b40e66ca32e1025ad25167dd81a0000","0b40e66ca32e1025ad25409b5a760000","0b40e66ca32e1025ad257cbbc09f0000","0b40e66ca32e1025ad24b0dd65160000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "nike": {
+          "tokenURL": "https://nike.wd1.myworkdayjobs.com/nke",
+          "jobURL": "https://nike.wd1.myworkdayjobs.com/wday/cxs/nike/nke/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["cd128a2666561000bad388d2f6030002"],"locations":["53aa8f3ea4191001f60e07d9bcdd0000"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "illumina": {
+          "tokenURL": "https://illumina.wd1.myworkdayjobs.com/illumina-careers",
+          "jobURL": "https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-careers/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"],"jobFamilyGroup":["662dc3b84e394f76a0fa663a3b349ff1"]},"limit":20,"offset":0,"searchText":""}
+        },
+        "aveva": {
+          "tokenURL": "https://aveva.wd3.myworkdayjobs.com/AVEVA_careers",
+          "jobURL": "https://aveva.wd3.myworkdayjobs.com/wday/cxs/aveva/AVEVA_careers/jobs",
+          "payload": {"appliedFacets":{"locationCountry":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "capital one": {
+          "tokenURL": "https://capitalone.wd12.myworkdayjobs.com/Capital_One",
+          "jobURL": "https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["a12c70bf789e105802e9e79458dc29ab"],"locations":["af51744fb4fc010ca9b81af56b6b0000","0f0572524957105948f71e0c0ba44c1d"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "rocket": {
+          "tokenURL": "https://rocket.wd5.myworkdayjobs.com/rocket_careers",
+          "jobURL": "https://rocket.wd5.myworkdayjobs.com/wday/cxs/rocket/rocket_careers/jobs",
+          "payload": {"appliedFacets":{"locations":["f256d86ba2ed01bd6ba1169f150ce909","f256d86ba2ed01562285419f150cdd0a","f256d86ba2ed01c520bf359f150ca60a","f256d86ba2ed013a5453dd9e150c2f09","0adb3467a9d201b74c6614e56f01f183","f256d86ba2ed019e5eb2e89e150c5209","f256d86ba2ed01650025189f150cf309","f256d86ba2ed01c9d192f89e150c7509","e149be98ee2701019cf928d0dc950000","f256d86ba2ed01884be7db9e150c2a09","f256d86ba2ed01ae895f2d9f150c750a","f256d86ba2ed011d6644269f150c4d0a","e149be98ee2701019d30f987c63e0000","f256d86ba2ed01c066cede9e150c3409","f256d86ba2ed01a77926e79e150c4d09","f256d86ba2ed016243082b9f150c6b0a","b94ed8f16432010d03a57024c8018886","b94ed8f16432015010021a92c7017f86","f256d86ba2ed012cb9b71f9f150c240a"]},"limit":20,"offset":0,"searchText":"software"}
+        },
+        "forcepoint": {
+          "tokenURL": "https://forcepoint.wd1.myworkdayjobs.com/external-careers",
+          "jobURL": "https://forcepoint.wd1.myworkdayjobs.com/wday/cxs/forcepoint/external-careers/jobs",
+          "payload": {"appliedFacets":{"jobFamilyGroup":["a2e9e714e63b01867971744f1a354c42"],"Location_Country":["c4f78be1a8f14da0ab49ce1162348a5e"]},"limit":20,"offset":0,"searchText":"software"}
         }
       }
     ]
