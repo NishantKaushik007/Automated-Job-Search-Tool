@@ -34,10 +34,10 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/assets/logo alt="Alt text" width="100"/>
 <img src=https://dh.wd3.myworkdayjobs.com/DHC/assets/logo alt="Alt text" width="100"/>
 <img src=https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/sidebarimage/1ccf18eff185101ddaaab706fd2c0000 alt="Alt text" width="100"/>
-<img src=https://kone.wd3.myworkdayjobs.com/wday/cxs/kone/Careers/sidebarimage/fb5ad9e04d5f01c17295ff0626021701 alt="Alt text" width="100"/>
+<img src=https://kone.wd3.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://nxp.wd3.myworkdayjobs.com/careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://oldmutual.wd3.myworkdayjobs.com/wday/cxs/oldmutual/Old_Mutual_Careers/sidebarimage/fe74dadff549010ef730d7f528021a01 alt="Alt text" width="100"/>
-<img src=https://refinitiv.wd3.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://lseg.wd3.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://philips.wd3.myworkdayjobs.com/jobs-and-careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/sidebarimage/906b7ba8972101bcc1cf621a09052201 alt="Alt text" width="100"/>
 <img src=https://siemensgamesa.wd3.myworkdayjobs.com/wday/cxs/siemensgamesa/SGRE/sidebarimage/b4576130f39401ab0f4c5dd426020c01 alt="Alt text" width="100"/>
@@ -52,7 +52,7 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://vmware.wd1.myworkdayjobs.com/VMware/assets/logo alt="Alt text" width="100"/>
 <img src=https://cadence.wd1.myworkdayjobs.com/External_Careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://global.rakuten.com/corp/assets/img/common/og_image_logo.png alt="Alt text" width="100"/>
-<img src=https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://hitachi.wd1.myworkdayjobs.com/hitachi/assets/logo alt="Alt text" width="100"/>
 <img src=https://equiniti.wd3.myworkdayjobs.com/Opportunities/assets/logo alt="Alt text" width="100"/>
 <img src=https://nttlimited.wd3.myworkdayjobs.com/dimensiondata_careers/assets/logo alt="Alt text" width="100"/>
@@ -82,7 +82,7 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://nasdaq.wd1.myworkdayjobs.com/US_External_Career_Site/assets/logo alt="Alt text" width="100"/>
 <img src=https://franklintempleton.wd5.myworkdayjobs.com/Primary-External-1/assets/logo alt="Alt text" width="100"/>
 <img src=https://jda.wd5.myworkdayjobs.com/JDA_Careers/assets/logo alt="Alt text" width="100"/>
-<img src=https://perkinelmer.wd1.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
+<img src=https://newperkinelmer.wd1.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
 <img src=https://veritas.wd1.myworkdayjobs.com/careers/assets/logo alt="Alt text" width="100"/>
 <img src=https://flsmidth.wd3.myworkdayjobs.com/FLS_Global/assets/logo alt="Alt text" width="100"/>
 <img src=https://icon.wd3.myworkdayjobs.com/broadbean_external/assets/logo alt="Alt text" width="100"/>
@@ -94,7 +94,7 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://walmart.wd5.myworkdayjobs.com/WalmartExternal/assets/logo alt="Alt text" width="100"/>
 <img src=https://manh.wd5.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
 <img src=https://equifax.wd5.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
-<img src=https://www.boeing.co.in/resources/images/boeing_logo.png alt="Alt text" width="100"/>
+<img src=https://www.boeing.com/content/experience-fragments/theboeingcompany/us/en/site/header/master/_jcr_content/root/image.coreimg.85.1600.png/1702094008961/logo.png alt="Alt text" width="100"/>
 <img src=https://dell.wd1.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
 <img src=https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/assets/logo alt="Alt text" width="100"/>
 <img src=https://flextronics.wd1.myworkdayjobs.com/Careers/assets/logo alt="Alt text" width="100"/>
@@ -128,8 +128,43 @@ Overall, the Automated Job Search Tool combines comprehensive job search capabil
 <img src=https://ffive.wd5.myworkdayjobs.com/f5jobs/assets/logo alt="Alt text" width="100"/>
 <img src=https://nuance.wd1.myworkdayjobs.com/Nuance/assets/logo alt="Alt text" width="100"/>
 <img src=https://verizon.wd5.myworkdayjobs.com/verizon-careers/assets/logo alt="Alt text" width="100"/>
-<img src=https://merative.wd1.myworkdayjobs.com/External_Career_Site/assets/logo alt="Alt text" width="100"/>
+<img src=https://merative.wd12.myworkdayjobs.com/External_Career_Site/assets/logo alt="Alt text" width="100"/>
 <img src=https://gen.wd1.myworkdayjobs.com/careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://workiva.wd1.myworkdayjobs.com/careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://bb.wd3.myworkdayjobs.com/BlackBerry/assets/logo alt="Alt text" width="100"/>
+<img src=https://www.harriscomputer.com/hs-fs/hubfs/Harris-Logo-FullColor-Lg.png?width=2317&height=737&name=Harris-Logo-FullColor-Lg.png alt="Alt text" width="100"/>
+<img src=https://traveloka.wd3.myworkdayjobs.com/Traveloka/assets/logo alt="Alt text" width="100"/>
+<img src=https://expedia.wd5.myworkdayjobs.com/search/assets/logo alt="Alt text" width="100"/>
+<img src=https://alteryx.wd5.myworkdayjobs.com/AlteryxCareers/assets/logo alt="Alt text" width="100"/>
+<img src=https://invesco.wd1.myworkdayjobs.com/IVZ/assets/logo alt="Alt text" width="100"/>
+<img src=https://ffive.wd5.myworkdayjobs.com/f5jobs/assets/logo alt="Alt text" width="100"/>
+<img src=https://lytx.wd1.myworkdayjobs.com/Lytx/assets/logo alt="Alt text" width="100"/>
+<img src=https://jci.wd5.myworkdayjobs.com/JCI/assets/logo alt="Alt text" width="100"/>
+<img src=https://dow.wd1.myworkdayjobs.com/ExternalCareers/assets/logo alt="Alt text" width="100"/>
+<img src=https://gapinc.wd1.myworkdayjobs.com/GAPINC/assets/logo alt="Alt text" width="100"/>
+<img src=https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/assets/logo alt="Alt text" width="100"/>
+<img src=https://cloudera.wd5.myworkdayjobs.com/External_Career/assets/logo alt="Alt text" width="100"/>
+<img src=https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://wd1.myworkdaysite.com/recruiting/avnet/External/assets/logo alt="Alt text" width="100"/>
+<img src=https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers/assets/logo alt="Alt text" width="100"/>
+<img src=https://epiqsystems.wd5.myworkdayjobs.com/Epiq_Careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://commvault.wd1.myworkdayjobs.com/commvault/assets/logo alt="Alt text" width="100"/>
+<img src=https://lilly.wd5.myworkdayjobs.com/lly/assets/logo alt="Alt text" width="100"/>
+<img src=https://cardinalhealth.wd1.myworkdayjobs.com/EXT/assets/logo alt="Alt text" width="100"/>
+<img src=https://disney.wd5.myworkdayjobs.com/disneycareer/assets/logo alt="Alt text" width="100"/>
+<img src=https://maersk.wd3.myworkdayjobs.com/Maersk_Manual/assets/logo alt="Alt text" width="100"/>
+<img src=https://r1rcm.wd1.myworkdayjobs.com/R1RCM/assets/logo alt="Alt text" width="100"/>
+<img src=https://kiongroup.wd3.myworkdayjobs.com/KIONGroup/assets/logo alt="Alt text" width="100"/>
+<img src=https://tnsi.wd1.myworkdayjobs.com/Search/assets/logo alt="Alt text" width="100"/>
+<img src=https://csgi.wd5.myworkdayjobs.com/CSGCareers/assets/logo alt="Alt text" width="100"/>
+<img src=https://micron.wd1.myworkdayjobs.com/External/assets/logo alt="Alt text" width="100"/>
+<img src=https://genesys.wd1.myworkdayjobs.com/Genesys/assets/logo alt="Alt text" width="100"/>
+<img src=https://nike.wd1.myworkdayjobs.com/nke/assets/logo alt="Alt text" width="100"/>
+<img src=https://assets.illumina.com/content/dam/illumina-common/logo/illumina-full_logo.svg alt="Alt text" width="100"/>
+<img src=https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://capitalone.wd12.myworkdayjobs.com/Capital_One/assets/logo alt="Alt text" width="100"/>
+<img src=https://rocket.wd5.myworkdayjobs.com/rocket_careers/assets/logo alt="Alt text" width="100"/>
+<img src=https://forcepoint.wd1.myworkdayjobs.com/external-careers/assets/logo alt="Alt text" width="100"/>
 </p>
 
 ## Installation
